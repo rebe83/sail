@@ -172,12 +172,9 @@ x = float(x) # x = 45.0
 import library
 # library.function
 
-import library as library
+import library as lib
 # lib.function
 
 from library import function
 # function
-
-from library import function as function
-# fun
 ```
