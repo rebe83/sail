@@ -67,7 +67,35 @@ print('Hello, world')
 
 # Programming in Python
 
+## Variables
+
+``` python
+x = 10
+y = 'hello'
+z = [1,2,3]
+umm = (1,2,3)
+```
+
+## Conditional
+
+``` python
+if x > 10:
+    # Do stuff
+elif x < 0:
+    # Do stuff
+else:
+    # Do stuff
+```
+
 ## Loops
+
+###  Side Note: Range
+
+``` python
+x = range(4)
+# x = [0,1,2,3]
+# Not really, but all you need to know for now
+```
 
 ### For Loop
 
@@ -87,5 +115,27 @@ for element in list:
 
 ``` python
 while x < 10:
+    if foo == 0:
+        break
+    if bar = 0:
+        continue
     # Do stuff
+```
+
+
+## Functions
+
+### With Arguments
+``` python
+def foo(bar):
+    # Do stuff
+    return foo
+```
+
+### Without Arguments
+
+``` python
+def foo:
+    # Do stuff
+    return 0
 ```
