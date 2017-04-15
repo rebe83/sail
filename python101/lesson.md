@@ -70,10 +70,11 @@ print('Hello, world')
 ## Variables
 
 ``` python
-x = 10
-y = 'hello'
-z = [1,2,3]
-umm = (1,2,3)
+x = 10        # Int
+y = 1.        # Float
+z = 'hello'   # String
+umm = [1,2,3] # List
+a = (1,2,3)   # Tuple
 ```
 
 ## Conditionals
@@ -95,7 +96,7 @@ else:
 if x in list:
     # Do stuff
     
-if not x in list:
+if x not in list:
     # Do stuff
 ```
 
@@ -107,6 +108,9 @@ if not x in list:
 x = range(4)
 # x = [0,1,2,3]
 # Not really, but all you need to know for now
+
+x = range(1,4)
+# x = [1,2,3]
 ```
 
 ### For Loop
@@ -152,4 +156,28 @@ inMoreStuff = input('Ples input: ')
 print('First:', inStuff)
 
 print('Second: {}'.format(inMorestuff))
+```
+
+## Typecasting
+
+``` python
+x = '45' # x = '45'
+x = int(x) # x = 45
+x = float(x) # x = 45.0
+```
+
+## Libraries
+
+``` python
+import library
+# library.function
+
+import library as library
+# lib.function
+
+from library import function
+# function
+
+from library import function as function
+# fun
 ```
