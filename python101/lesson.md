@@ -76,14 +76,26 @@ z = [1,2,3]
 umm = (1,2,3)
 ```
 
-## Conditional
+## Conditionals
+
+### Standard
 
 ``` python
 if x > 10:
     # Do stuff
-elif x < 0:
+elif not x < 0:
     # Do stuff
 else:
+    # Do stuff
+```
+
+### List-based
+
+``` python
+if x in list:
+    # Do stuff
+    
+if not x in list:
     # Do stuff
 ```
 
@@ -122,20 +134,22 @@ while x < 10:
     # Do stuff
 ```
 
-
 ## Functions
 
-### With Arguments
 ``` python
 def foo(bar):
     # Do stuff
     return foo
 ```
 
-### Without Arguments
+## IO
 
 ``` python
-def foo:
-    # Do stuff
-    return 0
+inStuff = input()
+
+inMoreStuff = input('Ples input: ')
+
+print('First:', inStuff)
+
+print('Second: {}'.format(inMorestuff))
 ```
