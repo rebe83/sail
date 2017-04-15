@@ -175,6 +175,6 @@ import library
 import library as lib
 # lib.function
 
-from library import function
-# function
+from library import function as fun
+# fun
 ```
