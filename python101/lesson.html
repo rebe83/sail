@@ -14,9 +14,14 @@
 <h1>Introduction</h1>
 
 <p>Name: Adam Poindexter <br />
-Major/Year: Sophomore in Electrical Engineering (for now)</p>
+Major: Electrical Engineering (for now) <br />
+Year: Sophomore (Class of 2019)</p>
 
 <h1>Python Language</h1>
+
+<p><a href="https://en.wikipedia.org/wiki/Python_(programming_language">Wikipedia:</a>
+"Python (programming language)")
+Python is a widely used high-level programming language for general-purpose programming, created by Guido van Rossum and first released in 1991. An interpreted language, Python has a design philosophy which emphasizes code readability (notably using whitespace indentation to delimit code blocks rather than curly braces or keywords), and a syntax which allows programmers to express concepts in fewer lines of code than possible in languages such as C++ or Java. The language provides constructs intended to enable writing clear programs on both a small and large scale. Python features a dynamic type system and automatic memory management and supports multiple programming paradigms, including object-oriented, imperative, functional programming, and procedural styles. It has a large and comprehensive standard library.</p>
 
 <h2>Important Points:</h2>
 
@@ -27,14 +32,56 @@ Major/Year: Sophomore in Electrical Engineering (for now)</p>
 <li>Python is a <em>VERY</em> high-level language</li>
 </ul>
 
-<p>Assembly:</p>
+<h2>Language Comparison</h2>
 
-<pre><code>``` c++
-int main(){
-
-}
+<p>Assembly:
 ```
-</code></pre>
+.text</p>
+
+<p>.global main
+main:
+mov $4, %eax /* write system call <em>/
+mov $1, %ebx /</em> stdout */
+mov $msg, %ecx
+mov $msgend-msg, %edx
+int $0x80</p>
+
+<p>mov $1, %eax /* <em>exit system call */
+mov $0, %ebx /* EXIT</em>SUCCESS */
+int $0x80</p>
+
+<p>.data</p>
+
+<p>msg: .ascii "Hello, world\n"
+msgend:
+```</p>
+
+<p>C++:
+``` c++</p>
+
+<h1>include <iostream></h1>
+
+<p>using namespace std;</p>
+
+<p>int main() {
+    cout &lt;&lt; "Hello, world" &lt;&lt; endl;
+}
+```</p>
+
+<p>Java:
+<code>java
+public class Hello {
+    public static void main(String []args) {
+        System.out.println("Hello World");
+    }
+}
+</code></p>
+
+<p>Python:</p>
+
+<p><code>python
+print('Hello, world')
+</code></p>
 
 </body>
 </html>
