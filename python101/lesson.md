@@ -64,3 +64,28 @@ Python:
 ``` python
 print('Hello, world')
 ```
+
+# Programming in Python
+
+## Loops
+
+### For Loop
+
+``` python
+for i in range(10):
+    # Do stuff
+```
+
+### For Each Loop
+
+``` python
+for element in list:
+    # Do stuff
+```
+
+### While Loop
+
+``` python
+while x < 10:
+    # Do stuff
+```
